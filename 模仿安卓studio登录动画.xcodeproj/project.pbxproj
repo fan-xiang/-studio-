@@ -1,0 +1,539 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A9FD74251E2CD29E000F1A83 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A9FD74241E2CD29E000F1A83 /* main.m */; };
+		A9FD74281E2CD29E000F1A83 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A9FD74271E2CD29E000F1A83 /* AppDelegate.m */; };
+		A9FD742B1E2CD29E000F1A83 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A9FD742A1E2CD29E000F1A83 /* ViewController.m */; };
+		A9FD742E1E2CD29E000F1A83 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A9FD742C1E2CD29E000F1A83 /* Main.storyboard */; };
+		A9FD74301E2CD29E000F1A83 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A9FD742F1E2CD29E000F1A83 /* Assets.xcassets */; };
+		A9FD74331E2CD29E000F1A83 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A9FD74311E2CD29E000F1A83 /* LaunchScreen.storyboard */; };
+		A9FD743E1E2CD29E000F1A83 /* ____studio____Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = A9FD743D1E2CD29E000F1A83 /* ____studio____Tests.m */; };
+		A9FD74491E2CD29E000F1A83 /* ____studio____UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A9FD74481E2CD29E000F1A83 /* ____studio____UITests.m */; };
+		A9FD74581E2CD2C8000F1A83 /* FXAnimationField.m in Sources */ = {isa = PBXBuildFile; fileRef = A9FD74571E2CD2C8000F1A83 /* FXAnimationField.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A9FD743A1E2CD29E000F1A83 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A9FD74181E2CD29E000F1A83 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A9FD741F1E2CD29E000F1A83;
+			remoteInfo = "模仿安卓studio登录动画";
+		};
+		A9FD74451E2CD29E000F1A83 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A9FD74181E2CD29E000F1A83 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A9FD741F1E2CD29E000F1A83;
+			remoteInfo = "模仿安卓studio登录动画";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A9FD74201E2CD29E000F1A83 /* 模仿安卓studio登录动画.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "模仿安卓studio登录动画.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A9FD74241E2CD29E000F1A83 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A9FD74261E2CD29E000F1A83 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A9FD74271E2CD29E000F1A83 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A9FD74291E2CD29E000F1A83 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		A9FD742A1E2CD29E000F1A83 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		A9FD742D1E2CD29E000F1A83 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A9FD742F1E2CD29E000F1A83 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A9FD74321E2CD29E000F1A83 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A9FD74341E2CD29E000F1A83 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A9FD74391E2CD29E000F1A83 /* 模仿安卓studio登录动画Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "模仿安卓studio登录动画Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A9FD743D1E2CD29E000F1A83 /* ____studio____Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "____studio____Tests.m"; sourceTree = "<group>"; };
+		A9FD743F1E2CD29E000F1A83 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A9FD74441E2CD29E000F1A83 /* 模仿安卓studio登录动画UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "模仿安卓studio登录动画UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A9FD74481E2CD29E000F1A83 /* ____studio____UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "____studio____UITests.m"; sourceTree = "<group>"; };
+		A9FD744A1E2CD29E000F1A83 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A9FD74561E2CD2C8000F1A83 /* FXAnimationField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FXAnimationField.h; sourceTree = "<group>"; };
+		A9FD74571E2CD2C8000F1A83 /* FXAnimationField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FXAnimationField.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A9FD741D1E2CD29E000F1A83 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A9FD74361E2CD29E000F1A83 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A9FD74411E2CD29E000F1A83 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A9FD74171E2CD29E000F1A83 = {
+			isa = PBXGroup;
+			children = (
+				A9FD74221E2CD29E000F1A83 /* 模仿安卓studio登录动画 */,
+				A9FD743C1E2CD29E000F1A83 /* 模仿安卓studio登录动画Tests */,
+				A9FD74471E2CD29E000F1A83 /* 模仿安卓studio登录动画UITests */,
+				A9FD74211E2CD29E000F1A83 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A9FD74211E2CD29E000F1A83 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A9FD74201E2CD29E000F1A83 /* 模仿安卓studio登录动画.app */,
+				A9FD74391E2CD29E000F1A83 /* 模仿安卓studio登录动画Tests.xctest */,
+				A9FD74441E2CD29E000F1A83 /* 模仿安卓studio登录动画UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A9FD74221E2CD29E000F1A83 /* 模仿安卓studio登录动画 */ = {
+			isa = PBXGroup;
+			children = (
+				A9FD74261E2CD29E000F1A83 /* AppDelegate.h */,
+				A9FD74271E2CD29E000F1A83 /* AppDelegate.m */,
+				A9FD74291E2CD29E000F1A83 /* ViewController.h */,
+				A9FD742A1E2CD29E000F1A83 /* ViewController.m */,
+				A9FD74561E2CD2C8000F1A83 /* FXAnimationField.h */,
+				A9FD74571E2CD2C8000F1A83 /* FXAnimationField.m */,
+				A9FD742C1E2CD29E000F1A83 /* Main.storyboard */,
+				A9FD742F1E2CD29E000F1A83 /* Assets.xcassets */,
+				A9FD74311E2CD29E000F1A83 /* LaunchScreen.storyboard */,
+				A9FD74341E2CD29E000F1A83 /* Info.plist */,
+				A9FD74231E2CD29E000F1A83 /* Supporting Files */,
+			);
+			path = "模仿安卓studio登录动画";
+			sourceTree = "<group>";
+		};
+		A9FD74231E2CD29E000F1A83 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A9FD74241E2CD29E000F1A83 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A9FD743C1E2CD29E000F1A83 /* 模仿安卓studio登录动画Tests */ = {
+			isa = PBXGroup;
+			children = (
+				A9FD743D1E2CD29E000F1A83 /* ____studio____Tests.m */,
+				A9FD743F1E2CD29E000F1A83 /* Info.plist */,
+			);
+			path = "模仿安卓studio登录动画Tests";
+			sourceTree = "<group>";
+		};
+		A9FD74471E2CD29E000F1A83 /* 模仿安卓studio登录动画UITests */ = {
+			isa = PBXGroup;
+			children = (
+				A9FD74481E2CD29E000F1A83 /* ____studio____UITests.m */,
+				A9FD744A1E2CD29E000F1A83 /* Info.plist */,
+			);
+			path = "模仿安卓studio登录动画UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A9FD741F1E2CD29E000F1A83 /* 模仿安卓studio登录动画 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A9FD744D1E2CD29E000F1A83 /* Build configuration list for PBXNativeTarget "模仿安卓studio登录动画" */;
+			buildPhases = (
+				A9FD741C1E2CD29E000F1A83 /* Sources */,
+				A9FD741D1E2CD29E000F1A83 /* Frameworks */,
+				A9FD741E1E2CD29E000F1A83 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "模仿安卓studio登录动画";
+			productName = "模仿安卓studio登录动画";
+			productReference = A9FD74201E2CD29E000F1A83 /* 模仿安卓studio登录动画.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A9FD74381E2CD29E000F1A83 /* 模仿安卓studio登录动画Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A9FD74501E2CD29E000F1A83 /* Build configuration list for PBXNativeTarget "模仿安卓studio登录动画Tests" */;
+			buildPhases = (
+				A9FD74351E2CD29E000F1A83 /* Sources */,
+				A9FD74361E2CD29E000F1A83 /* Frameworks */,
+				A9FD74371E2CD29E000F1A83 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A9FD743B1E2CD29E000F1A83 /* PBXTargetDependency */,
+			);
+			name = "模仿安卓studio登录动画Tests";
+			productName = "模仿安卓studio登录动画Tests";
+			productReference = A9FD74391E2CD29E000F1A83 /* 模仿安卓studio登录动画Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A9FD74431E2CD29E000F1A83 /* 模仿安卓studio登录动画UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A9FD74531E2CD29E000F1A83 /* Build configuration list for PBXNativeTarget "模仿安卓studio登录动画UITests" */;
+			buildPhases = (
+				A9FD74401E2CD29E000F1A83 /* Sources */,
+				A9FD74411E2CD29E000F1A83 /* Frameworks */,
+				A9FD74421E2CD29E000F1A83 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A9FD74461E2CD29E000F1A83 /* PBXTargetDependency */,
+			);
+			name = "模仿安卓studio登录动画UITests";
+			productName = "模仿安卓studio登录动画UITests";
+			productReference = A9FD74441E2CD29E000F1A83 /* 模仿安卓studio登录动画UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A9FD74181E2CD29E000F1A83 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "可米小子";
+				TargetAttributes = {
+					A9FD741F1E2CD29E000F1A83 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 7QNAMQ478L;
+						ProvisioningStyle = Automatic;
+					};
+					A9FD74381E2CD29E000F1A83 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = A9FD741F1E2CD29E000F1A83;
+					};
+					A9FD74431E2CD29E000F1A83 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = A9FD741F1E2CD29E000F1A83;
+					};
+				};
+			};
+			buildConfigurationList = A9FD741B1E2CD29E000F1A83 /* Build configuration list for PBXProject "模仿安卓studio登录动画" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A9FD74171E2CD29E000F1A83;
+			productRefGroup = A9FD74211E2CD29E000F1A83 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A9FD741F1E2CD29E000F1A83 /* 模仿安卓studio登录动画 */,
+				A9FD74381E2CD29E000F1A83 /* 模仿安卓studio登录动画Tests */,
+				A9FD74431E2CD29E000F1A83 /* 模仿安卓studio登录动画UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A9FD741E1E2CD29E000F1A83 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A9FD74331E2CD29E000F1A83 /* LaunchScreen.storyboard in Resources */,
+				A9FD74301E2CD29E000F1A83 /* Assets.xcassets in Resources */,
+				A9FD742E1E2CD29E000F1A83 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A9FD74371E2CD29E000F1A83 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A9FD74421E2CD29E000F1A83 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A9FD741C1E2CD29E000F1A83 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A9FD742B1E2CD29E000F1A83 /* ViewController.m in Sources */,
+				A9FD74281E2CD29E000F1A83 /* AppDelegate.m in Sources */,
+				A9FD74251E2CD29E000F1A83 /* main.m in Sources */,
+				A9FD74581E2CD2C8000F1A83 /* FXAnimationField.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A9FD74351E2CD29E000F1A83 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A9FD743E1E2CD29E000F1A83 /* ____studio____Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A9FD74401E2CD29E000F1A83 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A9FD74491E2CD29E000F1A83 /* ____studio____UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A9FD743B1E2CD29E000F1A83 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A9FD741F1E2CD29E000F1A83 /* 模仿安卓studio登录动画 */;
+			targetProxy = A9FD743A1E2CD29E000F1A83 /* PBXContainerItemProxy */;
+		};
+		A9FD74461E2CD29E000F1A83 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A9FD741F1E2CD29E000F1A83 /* 模仿安卓studio登录动画 */;
+			targetProxy = A9FD74451E2CD29E000F1A83 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A9FD742C1E2CD29E000F1A83 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A9FD742D1E2CD29E000F1A83 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A9FD74311E2CD29E000F1A83 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A9FD74321E2CD29E000F1A83 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A9FD744B1E2CD29E000F1A83 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A9FD744C1E2CD29E000F1A83 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A9FD744E1E2CD29E000F1A83 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 7QNAMQ478L;
+				INFOPLIST_FILE = "模仿安卓studio登录动画/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-234567890.----studio----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A9FD744F1E2CD29E000F1A83 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 7QNAMQ478L;
+				INFOPLIST_FILE = "模仿安卓studio登录动画/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-234567890.----studio----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		A9FD74511E2CD29E000F1A83 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "模仿安卓studio登录动画Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-234567890.----studio----Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/模仿安卓studio登录动画.app/模仿安卓studio登录动画";
+			};
+			name = Debug;
+		};
+		A9FD74521E2CD29E000F1A83 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "模仿安卓studio登录动画Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-234567890.----studio----Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/模仿安卓studio登录动画.app/模仿安卓studio登录动画";
+			};
+			name = Release;
+		};
+		A9FD74541E2CD29E000F1A83 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "模仿安卓studio登录动画UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-234567890.----studio----UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "模仿安卓studio登录动画";
+			};
+			name = Debug;
+		};
+		A9FD74551E2CD29E000F1A83 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "模仿安卓studio登录动画UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-234567890.----studio----UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "模仿安卓studio登录动画";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A9FD741B1E2CD29E000F1A83 /* Build configuration list for PBXProject "模仿安卓studio登录动画" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A9FD744B1E2CD29E000F1A83 /* Debug */,
+				A9FD744C1E2CD29E000F1A83 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A9FD744D1E2CD29E000F1A83 /* Build configuration list for PBXNativeTarget "模仿安卓studio登录动画" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A9FD744E1E2CD29E000F1A83 /* Debug */,
+				A9FD744F1E2CD29E000F1A83 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A9FD74501E2CD29E000F1A83 /* Build configuration list for PBXNativeTarget "模仿安卓studio登录动画Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A9FD74511E2CD29E000F1A83 /* Debug */,
+				A9FD74521E2CD29E000F1A83 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A9FD74531E2CD29E000F1A83 /* Build configuration list for PBXNativeTarget "模仿安卓studio登录动画UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A9FD74541E2CD29E000F1A83 /* Debug */,
+				A9FD74551E2CD29E000F1A83 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A9FD74181E2CD29E000F1A83 /* Project object */;
+}
