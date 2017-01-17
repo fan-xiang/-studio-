@@ -16,6 +16,8 @@
 		A9FD743E1E2CD29E000F1A83 /* ____studio____Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = A9FD743D1E2CD29E000F1A83 /* ____studio____Tests.m */; };
 		A9FD74491E2CD29E000F1A83 /* ____studio____UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A9FD74481E2CD29E000F1A83 /* ____studio____UITests.m */; };
 		A9FD74581E2CD2C8000F1A83 /* FXAnimationField.m in Sources */ = {isa = PBXBuildFile; fileRef = A9FD74571E2CD2C8000F1A83 /* FXAnimationField.m */; };
+		A9FD745B1E2DC194000F1A83 /* text-field.gif in Resources */ = {isa = PBXBuildFile; fileRef = A9FD745A1E2DC194000F1A83 /* text-field.gif */; };
+		A9FD745D1E2DC1A8000F1A83 /* 动图2.gif in Resources */ = {isa = PBXBuildFile; fileRef = A9FD745C1E2DC1A8000F1A83 /* 动图2.gif */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +56,8 @@
 		A9FD744A1E2CD29E000F1A83 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A9FD74561E2CD2C8000F1A83 /* FXAnimationField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FXAnimationField.h; sourceTree = "<group>"; };
 		A9FD74571E2CD2C8000F1A83 /* FXAnimationField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FXAnimationField.m; sourceTree = "<group>"; };
+		A9FD745A1E2DC194000F1A83 /* text-field.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "text-field.gif"; sourceTree = "<group>"; };
+		A9FD745C1E2DC1A8000F1A83 /* 动图2.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "动图2.gif"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -122,6 +126,7 @@
 		A9FD74231E2CD29E000F1A83 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				A9FD74591E2DC184000F1A83 /* 图片 */,
 				A9FD74241E2CD29E000F1A83 /* main.m */,
 			);
 			name = "Supporting Files";
@@ -143,6 +148,15 @@
 				A9FD744A1E2CD29E000F1A83 /* Info.plist */,
 			);
 			path = "模仿安卓studio登录动画UITests";
+			sourceTree = "<group>";
+		};
+		A9FD74591E2DC184000F1A83 /* 图片 */ = {
+			isa = PBXGroup;
+			children = (
+				A9FD745C1E2DC1A8000F1A83 /* 动图2.gif */,
+				A9FD745A1E2DC194000F1A83 /* text-field.gif */,
+			);
+			name = "图片";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -252,7 +266,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A9FD745B1E2DC194000F1A83 /* text-field.gif in Resources */,
 				A9FD74331E2CD29E000F1A83 /* LaunchScreen.storyboard in Resources */,
+				A9FD745D1E2DC1A8000F1A83 /* 动图2.gif in Resources */,
 				A9FD74301E2CD29E000F1A83 /* Assets.xcassets in Resources */,
 				A9FD742E1E2CD29E000F1A83 /* Main.storyboard in Resources */,
 			);
@@ -516,6 +532,7 @@
 				A9FD744F1E2CD29E000F1A83 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A9FD74501E2CD29E000F1A83 /* Build configuration list for PBXNativeTarget "模仿安卓studio登录动画Tests" */ = {
 			isa = XCConfigurationList;
@@ -524,6 +541,7 @@
 				A9FD74521E2CD29E000F1A83 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A9FD74531E2CD29E000F1A83 /* Build configuration list for PBXNativeTarget "模仿安卓studio登录动画UITests" */ = {
 			isa = XCConfigurationList;
@@ -532,6 +550,7 @@
 				A9FD74551E2CD29E000F1A83 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
